@@ -1,7 +1,10 @@
+const ASSET_PATH = 'https://qadirm.github.io/Dogger/';
+
 module.exports = {
   entry: "./lib/dogger.js",
   output: {
-  	filename: "./lib/bundle.js"
+  	filename: "./lib/bundle.js",
+    publicPath: ASSET_PATH
   },
   module: {
     loaders: [
