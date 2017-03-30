@@ -1,12 +1,35 @@
 <html>
   <head>
     <title>Dogger</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script src="https://use.fontawesome.com/b9970b0b6e.js"></script>
     <link rel="stylesheet" href="./styles.css" media="screen" title="no title">
   </head>
 
   <body>
+    <nav>
+			<div class="titles">Dogger</div>
+      <div class="logo">
+        <div class="">
+          <button type="button" name="button">reset</button>
+        </div>
+        <div class="">
+          <button type="button" name="button">pause</button>
+        </div>
+      </div>
+			<div class="logo">
+				<div>
+						<a href="https://github.com/QadirM/Dogger"><i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+				<div>
+						<a href="https://www.linkedin.com/in/qadir-ali"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</nav>
 
+    <div id="gamecontainer">
       <canvas id="dogger" height="600" width="1000"></canvas>
+    </div>
 
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
