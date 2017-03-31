@@ -2,12 +2,12 @@
 
 ### Background
 
-Dogger is a play on the classic game Frogger.  The game is a one-player game that plays out on a square grid. The goal of the game is to move the dog across multiple lanes of traffic and reach the other side of the road safely avoiding getting hit by a vehicle. The rules of the game are as follows;
+Dogger is a play on the classic game Frogger.  The game is a one-player game that plays out on a square grid. The goal of the game is to move the dog across multiple lanes of traffic and reach the other side of the road safely avoiding getting hit by a vehicle. The rules of the game are as follows:
 
 1) The dog can be moved using the arrow keys.
-2) The player has 3 lives (attempts) to safely cross the road and move to the next level.
-3) Anytime the dog is hit my the moving traffic, the player starts over with the dog positioned back on the initial side
-4) The Game is over when the player clears all levels or runs out of lives.
+2) The player has 3 lives (attempts) to safely cross the road and win the game.
+3) Anytime the dog is hit by the moving traffic, the player starts over with the dog positioned back on the initial side
+4) The Game is over when the player clears the level or runs out of lives.
 
 ### Functionality & MVP  
 
@@ -33,11 +33,10 @@ This project will be implemented with the following technologies:
 
 - Vanilla JavaScript and `jquery` for overall structure and game logic.
 - `HTML5 Canvas` for DOM manipulation and rendering.
-- `create.js` A suite of modular libraries and tools which work together or independently to enable rich interactive content on open web technologies via HTML5
 - `keymaster.js` to connect the users keystrokes to the gameplay.
 - Webpack to bundle and serve up the various scripts.
 
-In addition to the webpack entry file, there will be three scripts involved in this project:
+In addition to the Webpack entry file, there will be three scripts involved in this project:
 
 `moving_object.js`: this script will handle the logic for all moving objects, including setting their position and velocities and determining whether a collision has occurred.
 
@@ -71,7 +70,7 @@ In addition to the webpack entry file, there will be three scripts involved in t
 **Day 4**: Install the controls for the user to interact with the game.  Style the frontend, making it polished and professional.  Goals for the day:
 
 - Create controls for game start, reset, and mute sound.
-- Have a styled `Canvas`, nice looking controls and title.
+- Have a styled `Canvas`, nice looking page and title.
 - If time permits: have multiple levels with increasing difficulty.
 
 
