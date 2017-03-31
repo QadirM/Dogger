@@ -18,7 +18,6 @@ In Dogger the user will be able to:
 
 In addition, this project will include:
 
-- [ ] An About modal describing the background and rules of the game
 - [ ] A production Readme
 
 ### Wireframes
