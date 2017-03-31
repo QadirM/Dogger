@@ -1,4 +1,4 @@
-# PhotOn
+# Dogger
 
 [Dogger live][dogger]
 
